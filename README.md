@@ -11,3 +11,11 @@
            4. fit with Logistic Regression, Random Forest, Gradient Boost Trees models, and Neural Network.
            5. the Random Forest got the highest AUC score which is 0.89.
            6. build popularity recommender, item-item similarity recommender, NMF item-item similarity recommender, and ALS recommender.
+
+## Summary
+### Take away from the user churn modeling
+
+           0.The play frequence has great impact to our user churn predicting models, especially the user play frequence in last 14 days before our label end date (2017-05-12), last 7 days, and last 3 days.
+           1.The search frequence is more important than the download frequence.
+### Future work
+Accordingly, we found the importance of the user play frequence. The future work is to investigate the song play features and to generate more features based on the play features.
